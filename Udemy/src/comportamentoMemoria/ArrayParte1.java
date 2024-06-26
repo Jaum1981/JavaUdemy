@@ -19,9 +19,9 @@ public class ArrayParte1 {
             sum += vect[i];
         }
 
-        double averageHeigt = sum/qtd;
+        double averageHeight = sum/qtd;
 
-        System.out.println("Average heigt is: " + averageHeigt);
+        System.out.println("Average height is: " + averageHeight);
         sc.close();
     }
 }
