@@ -22,9 +22,12 @@ public class ArrayParte2 {
             vect[i] = new Product(name, price);
         }
 
+        double sum = 0.0;
         for(int i=0; i<qtd; i++){
-        System.out.println(vect[i]);
+        sum += vect[i].getPrice();
         }
+
+        System.out.println(sum);
 
         sc.close();
     }
