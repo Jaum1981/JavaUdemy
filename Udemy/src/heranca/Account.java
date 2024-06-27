@@ -4,23 +4,23 @@ public class Account {
 
     protected int number;
     protected String holder;
-    protected double amount;
+    protected double balance;
 
     public Account(){
     }
 
-    public Account(int number, String holder, double amount) {
+    public Account(int number, String holder, double balance) {
         this.number = number;
         this.holder = holder;
-        this.amount = amount;
+        this.balance = balance;
     }
 
     public void withdraw(double amount){
-        this.amount-= amount;
+        this.balance-= amount + 5.0;
     }
 
     public void deposit(double amount){
-        this.amount+= amount;
+        this.balance+= amount;
     }
 
     public int getNumber() {
@@ -36,7 +36,7 @@ public class Account {
     }
 
     public double getAmount() {
-        return amount;
+        return balance;
     }
 
     
