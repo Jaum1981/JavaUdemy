@@ -2,7 +2,6 @@ package estruturaSequencial;
 public class Casting {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int a, b;
 		double resultado;
 		

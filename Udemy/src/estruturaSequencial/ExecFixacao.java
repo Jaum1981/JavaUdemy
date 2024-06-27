@@ -4,7 +4,6 @@ import java.util.Locale;
 public class ExecFixacao {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Locale.setDefault(Locale.US);
 		String product1 = "Computer";
 		String product2 = "Office desk";
