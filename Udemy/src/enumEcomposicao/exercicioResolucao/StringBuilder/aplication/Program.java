@@ -19,6 +19,5 @@ public class Program {
 
         System.out.println(post1);
 
-
     }
 }
