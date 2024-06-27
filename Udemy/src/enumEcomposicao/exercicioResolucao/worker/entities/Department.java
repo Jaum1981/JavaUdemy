@@ -1,4 +1,4 @@
-package enumEcomposicao.exercicioResolucao.entities;
+package enumEcomposicao.exercicioResolucao.worker.entities;
 
 public class Department {
     

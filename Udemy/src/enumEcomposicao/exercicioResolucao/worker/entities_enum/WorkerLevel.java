@@ -1,4 +1,4 @@
-package enumEcomposicao.exercicioResolucao.entities_enum;
+package enumEcomposicao.exercicioResolucao.worker.entities_enum;
 
 public enum WorkerLevel {
     

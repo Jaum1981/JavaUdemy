@@ -1,13 +1,13 @@
-package enumEcomposicao.exercicioResolucao.aplication;
+package enumEcomposicao.exercicioResolucao.worker.aplication;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
-import enumEcomposicao.exercicioResolucao.entities.Department;
-import enumEcomposicao.exercicioResolucao.entities.HourContract;
-import enumEcomposicao.exercicioResolucao.entities.Worker;
-import enumEcomposicao.exercicioResolucao.entities_enum.WorkerLevel;
+import enumEcomposicao.exercicioResolucao.worker.entities.Department;
+import enumEcomposicao.exercicioResolucao.worker.entities.HourContract;
+import enumEcomposicao.exercicioResolucao.worker.entities.Worker;
+import enumEcomposicao.exercicioResolucao.worker.entities_enum.WorkerLevel;
 
 
 

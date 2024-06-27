@@ -1,9 +1,9 @@
-package enumEcomposicao.exercicioResolucao.entities;
+package enumEcomposicao.exercicioResolucao.worker.entities;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import enumEcomposicao.exercicioResolucao.entities_enum.WorkerLevel;
+import enumEcomposicao.exercicioResolucao.worker.entities_enum.WorkerLevel;
 
 public class Worker {
 	
