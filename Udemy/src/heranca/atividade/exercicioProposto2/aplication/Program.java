@@ -42,7 +42,7 @@ public class Program {
                     break;
                 
                 case 'i':
-                System.out.print("Cuson fee: ");
+                System.out.print("Custon fee: ");
                 double customsFee = sc.nextDouble();
                 list.add(new ImportedProduct(name, price, customsFee));
                     break;
