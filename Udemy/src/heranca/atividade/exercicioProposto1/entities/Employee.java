@@ -1,4 +1,4 @@
-package heranca.atividade.entities;
+package heranca.atividade.exercicioProposto1.entities;
 
 public class Employee {
     private String name;

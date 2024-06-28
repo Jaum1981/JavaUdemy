@@ -1,11 +1,11 @@
-package heranca.atividade.aplication;
+package heranca.atividade.exercicioProposto1.aplication;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import heranca.atividade.entities.Employee;
-import heranca.atividade.entities.OutsourcedEmployee;
+import heranca.atividade.exercicioProposto1.entities.Employee;
+import heranca.atividade.exercicioProposto1.entities.OutsourcedEmployee;
 
 public class Program {
     public static void main(String[] args) {

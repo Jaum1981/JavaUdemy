@@ -1,4 +1,4 @@
-package heranca.atividade.entities;
+package heranca.atividade.exercicioProposto1.entities;
 
 public final class OutsourcedEmployee extends Employee{
     
