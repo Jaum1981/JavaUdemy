@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/jaum/Desktop/jdbc1/.metadata/.plugins/org.eclipse.jdt.core
+1293991872.index
+1865797976.index
+3021595414.index
