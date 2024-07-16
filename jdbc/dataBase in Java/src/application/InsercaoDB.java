@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 
 import dataBase.DB;
 
-public class Program {
+public class InsercaoDB {
     public static void main(String[] args) {
 
         PreparedStatement st = null;
