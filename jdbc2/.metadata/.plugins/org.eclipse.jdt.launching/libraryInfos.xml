@@ -3,4 +3,17 @@
     <libraryInfo home="/Users/jaum/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.11.v20240426-1830" version="17.0.11"/>
     <libraryInfo home="/Users/jaum/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.11.v20240426-1830/jre" version="17.0.11"/>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home" version="21.0.3"/>
+    <libraryInfo home="/home/jaum1981/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.1.v20240426-1149" version="22.0.1">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="/home/jaum1981/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.1.v20240426-1149/jre" version="22.0.1"/>
+    <libraryInfo home="/usr/lib/jvm/jdk-22-oracle-x64" version="22.0.1"/>
 </libraryInfos>
