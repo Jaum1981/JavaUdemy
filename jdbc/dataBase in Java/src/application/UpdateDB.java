@@ -12,7 +12,6 @@ public class UpdateDB {
     public static void main(String[] args) {
 
         PreparedStatement st = null;
-        ResultSet rs = null;
         DB db = new DB();
 
         try {
@@ -25,9 +24,12 @@ public class UpdateDB {
                     Statement.RETURN_GENERATED_KEYS);
 
             st.setDouble(1, 200.0);
+
             int rowsAffected = st.executeUpdate();
-            if (rowsAffected >= 1) { // n~ao ta entrando???
-                rs = st.getGeneratedKeys();
+            System.out.println(rowsAffected);
+
+            if (rowsAffected > 0) { // n~ao ta entrando???
+                ResultSet rs = st.getGeneratedKeys();
                 while (rs.next()) {
                     String name = rs.getString("Name");
                     Double newSalary = rs.getDouble("BaseSalary");
