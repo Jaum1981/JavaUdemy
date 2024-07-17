@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+/home/jaum1981/Área de trabalho/JavaUdemy/jdbc2/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-1303755486.index
-495321748.index
