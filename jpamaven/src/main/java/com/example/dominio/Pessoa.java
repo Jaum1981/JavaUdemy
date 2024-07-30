@@ -10,7 +10,7 @@ public class Pessoa {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // ou outro tipo de estratégia de geração se preferir
-    private Long id;
+    private Integer id;
     private String nome;
     private String email;
 
@@ -19,18 +19,18 @@ public class Pessoa {
     }
 
     // Construtor com parâmetros
-    public Pessoa(Long id, String nome, String email) {
+    public Pessoa(Integer id, String nome, String email) {
         this.id = id;
         this.nome = nome;
         this.email = email;
     }
 
     // Getters e setters
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
