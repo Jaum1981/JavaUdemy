@@ -1,11 +1,12 @@
 package introPOO.application;
+
 import java.util.Scanner;
 
 import introPOO.entitie.Conta;
 
 public class ProgramConta {
     public static void main(String[] args) {
-        
+
         Scanner sc = new Scanner(System.in);
 
         Conta conta1;
@@ -17,11 +18,11 @@ public class ProgramConta {
         String nameAccount = sc.nextLine();
         System.out.println("Do you want a initial deposit? (s/n)");
         char answer = sc.next().charAt(0);
-        if(answer != 'n'){
+        if (answer != 'n') {
             System.out.println("Enter initial deposit: ");
             double initialDeposit = sc.nextDouble();
             conta1 = new Conta(numberAccount, nameAccount, initialDeposit);
-        }else{
+        } else {
             conta1 = new Conta(numberAccount, nameAccount);
         }
 

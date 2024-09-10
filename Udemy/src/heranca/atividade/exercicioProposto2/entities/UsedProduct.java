@@ -2,11 +2,11 @@ package heranca.atividade.exercicioProposto2.entities;
 
 import java.time.LocalDate;
 
-public class UsedProduct extends Product{
-    
+public class UsedProduct extends Product {
+
     private LocalDate manufacturedDate;
 
-    public UsedProduct(){
+    public UsedProduct() {
     }
 
     public UsedProduct(String name, double price, LocalDate manufacturedDate) {

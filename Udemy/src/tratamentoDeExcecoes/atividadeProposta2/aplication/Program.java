@@ -19,7 +19,7 @@ public class Program {
         double balance = sc.nextDouble();
         System.out.print("Withdraw limit: ");
         double withdrawLimit = sc.nextDouble();
-            try{
+        try {
             Account conta = new Account(number, holder, balance, withdrawLimit);
             System.out.println();
             System.out.print("Enter amount to withdraw: ");
@@ -31,5 +31,5 @@ public class Program {
         }
         sc.close();
     }
-    
+
 }

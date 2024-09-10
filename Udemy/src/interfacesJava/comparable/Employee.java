@@ -1,10 +1,10 @@
 package interfacesJava.comparable;
 
-public class Employee implements Comparable<Employee>{
+public class Employee implements Comparable<Employee> {
     private String name;
     private Double salary;
 
-    public Employee(){
+    public Employee() {
 
     }
 

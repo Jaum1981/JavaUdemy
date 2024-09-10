@@ -21,7 +21,7 @@ public class Products implements Comparable<Products> {
     public Double getPrice() {
         return price;
     }
-    
+
     public void setPrice(Double price) {
         this.price = price;
     }
@@ -35,7 +35,6 @@ public class Products implements Comparable<Products> {
     public int compareTo(Products o) {
         return price.compareTo(o.getPrice());
     }
-
 
 
 }

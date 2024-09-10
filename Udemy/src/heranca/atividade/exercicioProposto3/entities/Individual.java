@@ -1,10 +1,10 @@
 package heranca.atividade.exercicioProposto3.entities;
 
-public class Individual extends TaxPayer{
+public class Individual extends TaxPayer {
 
     private double healtExpenditures;
 
-    public Individual(){
+    public Individual() {
     }
 
     public Individual(String name, double anualIncome, double healtExpenditures) {
@@ -13,13 +13,13 @@ public class Individual extends TaxPayer{
     }
 
     @Override
-    public double tax(){
-        if(anualIncome<20000){
-            double aux = anualIncome*0.15;
-            return aux-healtExpenditures*0.5;
-        }else{
-            double aux = anualIncome*0.25;
-            return aux-healtExpenditures*0.5;
+    public double tax() {
+        if (anualIncome < 20000) {
+            double aux = anualIncome * 0.15;
+            return aux - healtExpenditures * 0.5;
+        } else {
+            double aux = anualIncome * 0.25;
+            return aux - healtExpenditures * 0.5;
         }
     }
 
@@ -30,5 +30,5 @@ public class Individual extends TaxPayer{
     public void setHealtExpenditures(double healtExpenditures) {
         this.healtExpenditures = healtExpenditures;
     }
-    
+
 }

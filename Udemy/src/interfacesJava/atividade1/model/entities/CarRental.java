@@ -3,7 +3,7 @@ package interfacesJava.atividade1.model.entities;
 import java.time.LocalDateTime;
 
 public class CarRental {
-    
+
     private LocalDateTime start;
     private LocalDateTime finish;
 
@@ -47,7 +47,6 @@ public class CarRental {
     public void setInVoice(InVoice inVoice) {
         this.inVoice = inVoice;
     }
-    
-    
+
 
 }

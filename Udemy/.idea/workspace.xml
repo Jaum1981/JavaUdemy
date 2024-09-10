@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfb219de-f1b6-4738-9e7b-d07d8f93fc36" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/arquivos/FileReader_BufferedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/FileReader_BufferedReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arquivos/FileWritter_BufferedWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/FileWritter_BufferedWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arquivos/InfoArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/InfoArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arquivos/Leitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/Leitura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arquivos/ManipulacaoDePastas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/ManipulacaoDePastas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arquivos/TryWithResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/TryWithResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arquivos/atividadeProposta/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/atividadeProposta/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arquivos/atividadeProposta/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/atividadeProposta/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arquivos/atividadeProposta/entities/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arquivos/atividadeProposta/entities/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comportamentoMemoria/ArrayParte1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comportamentoMemoria/ArrayParte1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comportamentoMemoria/ArrayParte2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comportamentoMemoria/ArrayParte2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comportamentoMemoria/Listas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comportamentoMemoria/Listas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comportamentoMemoria/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comportamentoMemoria/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comportamentoMemoria/exercicioDeFixacao/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comportamentoMemoria/exercicioDeFixacao/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comportamentoMemoria/exercicioDeFixacao/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comportamentoMemoria/exercicioDeFixacao/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/entitiesEnums/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/entitiesEnums/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/StringBuilder/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/StringBuilder/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/StringBuilder/entities/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/StringBuilder/entities/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/StringBuilder/entities/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/StringBuilder/entities/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/entities/HourContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/entities/HourContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/entities/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/entities/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/entities_enum/WorkerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumEcomposicao/exercicioResolucao/worker/entities_enum/WorkerLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaCondicional/Comparativos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaCondicional/Comparativos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaLoop/ComandoDoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaLoop/ComandoDoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaLoop/ComandoFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaLoop/ComandoFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaLoop/ComandoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaLoop/ComandoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaSequencial/Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaSequencial/Casting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaSequencial/EntradaDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaSequencial/EntradaDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaSequencial/ExecFixacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaSequencial/ExecFixacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estruturaSequencial/Matematica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturaSequencial/Matematica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/curingasDelimitados/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/curingasDelimitados/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/curingasDelimitados/entities/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/curingasDelimitados/entities/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/curingasDelimitados/entities/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/curingasDelimitados/entities/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/genericsDelimitado/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/genericsDelimitado/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/genericsDelimitado/entities/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/genericsDelimitado/entities/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/genericsDelimitado/service/CalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/genericsDelimitado/service/CalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/introducao/PrintService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/introducao/PrintService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/introducao/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/introducao/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/BusinessAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/BusinessAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/SavingsAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto1/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto1/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto1/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto1/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto1/entities/OutsourcedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto1/entities/OutsourcedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto2/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto2/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto2/entities/ImportedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto2/entities/ImportedProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto2/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto2/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto2/entities/UsedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto2/entities/UsedProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto3/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto3/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto3/entities/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto3/entities/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto3/entities/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto3/entities/Individual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto3/entities/TaxPayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/atividade/exercicioProposto3/entities/TaxPayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/application/Progam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/application/Progam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/entities/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/entities/CarRental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/entities/InVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/entities/InVoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/entities/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/entities/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/services/BrazilTaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/services/BrazilTaxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/services/RentalServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade1/model/services/RentalServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade2/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade2/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade2/entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade2/entities/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade2/entities/Installment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade2/entities/Installment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade2/services/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade2/services/ContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade2/services/PaypalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade2/services/PaypalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/atividade2/services/interfacePaymentService/OnlinePaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/atividade2/services/interfacePaymentService/OnlinePaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/comparable/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/comparable/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesJava/comparable/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesJava/comparable/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introPOO/application/ProgramConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introPOO/application/ProgramConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introPOO/application/ProgramProductV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introPOO/application/ProgramProductV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introPOO/application/ProgramTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introPOO/application/ProgramTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introPOO/entitie/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introPOO/entitie/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introPOO/entitie/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introPOO/entitie/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introPOO/entitie/ProductV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introPOO/entitie/ProductV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introPOO/entitie/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introPOO/entitie/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta1/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta1/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta1/model/entities/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta1/model/entities/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta1/model/exception/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta1/model/exception/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta2/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta2/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta2/model/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta2/model/entities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta2/model/exceptions/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tratamentoDeExcecoes/atividadeProposta2/model/exceptions/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tratamentoDeExcecoes/blocoFinally/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tratamentoDeExcecoes/blocoFinally/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tratamentoDeExcecoes/tryCtach/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tratamentoDeExcecoes/tryCtach/Program.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2lsnSJd7IjTbI6qFBUbW9GiydZx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/juaun/Desktop/JavaUdemy/Udemy/src",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfb219de-f1b6-4738-9e7b-d07d8f93fc36" name="Changes" comment="" />
+      <created>1725977649861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725977649861</updated>
+      <workItem from="1725977650911" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

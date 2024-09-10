@@ -6,7 +6,7 @@ public class Account {
     protected String holder;
     protected double balance;
 
-    public Account(){
+    public Account() {
     }
 
     public Account(int number, String holder, double balance) {
@@ -15,12 +15,12 @@ public class Account {
         this.balance = balance;
     }
 
-    public void withdraw(double amount){
-        this.balance-= amount + 5.0;
+    public void withdraw(double amount) {
+        this.balance -= amount + 5.0;
     }
 
-    public void deposit(double amount){
-        this.balance+= amount;
+    public void deposit(double amount) {
+        this.balance += amount;
     }
 
     public int getNumber() {
@@ -39,6 +39,5 @@ public class Account {
         return balance;
     }
 
-    
 
 }

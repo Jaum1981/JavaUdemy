@@ -1,10 +1,10 @@
 package heranca.atividade.exercicioProposto1.entities;
 
-public final class OutsourcedEmployee extends Employee{
-    
+public final class OutsourcedEmployee extends Employee {
+
     private double addicionalCharge;
 
-    public OutsourcedEmployee(){
+    public OutsourcedEmployee() {
         super();
     }
 
@@ -15,11 +15,11 @@ public final class OutsourcedEmployee extends Employee{
 
     public double getAddicionalCharge() {
         return addicionalCharge;
-    }    
+    }
 
     @Override
-    public double payment(){
-        return super.payment() + 1.1*getAddicionalCharge();
+    public double payment() {
+        return super.payment() + 1.1 * getAddicionalCharge();
     }
 
 }

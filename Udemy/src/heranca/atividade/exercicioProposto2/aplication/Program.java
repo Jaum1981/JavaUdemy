@@ -20,8 +20,8 @@ public class Program {
         System.out.print("Enter the nuber of products: ");
         int qtdProducts = sc.nextInt();
 
-        for(int i = 0; i<qtdProducts; i++){
-            System.out.println("PRODUCT #" + (i+1));
+        for (int i = 0; i < qtdProducts; i++) {
+            System.out.println("PRODUCT #" + (i + 1));
             System.out.println("Common, used or imported (c/u/i)");
             char opc = sc.next().charAt(0);
             System.out.print("Name: ");
@@ -33,20 +33,20 @@ public class Program {
                 case 'c':
                     list.add(new Product(name, price));
                     break;
-    
+
                 case 'u':
-                System.out.print("Manufacture date (DD/MM/YYYY)");
-                String date = sc.next();
-                LocalDate d01 = LocalDate.parse(date, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
-                list.add(new UsedProduct(name, price, d01));
+                    System.out.print("Manufacture date (DD/MM/YYYY)");
+                    String date = sc.next();
+                    LocalDate d01 = LocalDate.parse(date, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+                    list.add(new UsedProduct(name, price, d01));
                     break;
-                
+
                 case 'i':
-                System.out.print("Custon fee: ");
-                double customsFee = sc.nextDouble();
-                list.add(new ImportedProduct(name, price, customsFee));
+                    System.out.print("Custon fee: ");
+                    double customsFee = sc.nextDouble();
+                    list.add(new ImportedProduct(name, price, customsFee));
                     break;
-            
+
                 default:
                     System.out.println("Invalid option");
                     break;
@@ -54,10 +54,10 @@ public class Program {
         }
 
         System.out.println();
-		System.out.println("ETIQUETAS DE PRECO:");
-		for (Product prod : list) {
-			System.out.println(prod.priceTag());
-		}
+        System.out.println("ETIQUETAS DE PRECO:");
+        for (Product prod : list) {
+            System.out.println(prod.priceTag());
+        }
 
         sc.close();
 

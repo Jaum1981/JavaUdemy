@@ -1,7 +1,7 @@
 package heranca;
 
-public class BusinessAccount extends Account{
-    
+public class BusinessAccount extends Account {
+
     @SuppressWarnings("unused")
     private double loanLimit;
 
@@ -13,12 +13,12 @@ public class BusinessAccount extends Account{
         this.loanLimit = loanLimit;
     }
 
-    public void loan(double amount){
+    public void loan(double amount) {
 
     }
 
     @Override
-    public void withdraw(double amount){
+    public void withdraw(double amount) {
         super.withdraw(amount);
         balance -= 2.0;
     }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ManipulacaoDePastas {
     public static void main(String[] args) {
-        
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a folder path: ");
@@ -21,7 +21,7 @@ public class ManipulacaoDePastas {
 
         File[] files = path.listFiles(File::isFile);
         System.out.println("Files: ");
-        for (File file : files){
+        for (File file : files) {
             System.out.println(file);
         }
 

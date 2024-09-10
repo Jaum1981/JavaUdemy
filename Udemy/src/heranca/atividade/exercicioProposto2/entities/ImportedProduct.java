@@ -1,10 +1,10 @@
 package heranca.atividade.exercicioProposto2.entities;
 
-public class ImportedProduct extends Product{
-    
+public class ImportedProduct extends Product {
+
     private double customsFee;
 
-    public ImportedProduct(){
+    public ImportedProduct() {
 
     }
 
@@ -13,13 +13,13 @@ public class ImportedProduct extends Product{
         this.customsFee = customsFee;
     }
 
-    public double totalPrice(){
+    public double totalPrice() {
         return super.getPrice() + customsFee;
     }
 
     @Override
     public String priceTag() {
-        return super.priceTag()+customsFee + "(Custom fee: $" + getCustomsFee() +")";
+        return super.priceTag() + customsFee + "(Custom fee: $" + getCustomsFee() + ")";
     }
 
     public double getCustomsFee() {
@@ -30,5 +30,5 @@ public class ImportedProduct extends Product{
         this.customsFee = customsFee;
     }
 
-    
+
 }

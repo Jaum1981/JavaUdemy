@@ -5,7 +5,7 @@ public class Employee {
     private Integer hours;
     private double valuePerHour;
 
-    public Employee(){
+    public Employee() {
 
     }
 
@@ -31,9 +31,9 @@ public class Employee {
         return valuePerHour;
     }
 
-    
-    public double payment(){
-        return getHours()*getValuePerHour();
+
+    public double payment() {
+        return getHours() * getValuePerHour();
     }
 
     // public String toString(){

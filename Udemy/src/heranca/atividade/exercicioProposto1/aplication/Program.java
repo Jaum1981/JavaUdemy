@@ -9,7 +9,7 @@ import heranca.atividade.exercicioProposto1.entities.OutsourcedEmployee;
 
 public class Program {
     public static void main(String[] args) {
-    
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of employees: ");
@@ -17,8 +17,8 @@ public class Program {
 
         List<Employee> list = new ArrayList<>();
 
-        for(int i=0; i<qtd; i++) {
-            System.out.print("Employee #" + (i+1));
+        for (int i = 0; i < qtd; i++) {
+            System.out.print("Employee #" + (i + 1));
             System.out.print("Outsourced employee?(y/n)");
             char opc = sc.next().charAt(0);
             sc.nextLine();
@@ -28,11 +28,11 @@ public class Program {
             int hours = sc.nextInt();
             System.err.print("Value per hour: ");
             double valuePerHour = sc.nextDouble();
-            if(opc == 'y'){
+            if (opc == 'y') {
                 System.out.print("Additional charge: ");
                 double addicionalCharge = sc.nextDouble();
                 list.add(new OutsourcedEmployee(name, hours, valuePerHour, addicionalCharge));
-            }else{
+            } else {
                 list.add(new Employee(name, hours, valuePerHour));
             }
         }
@@ -45,6 +45,6 @@ public class Program {
         sc.close();
 
     }
-        
-   
+
+
 }

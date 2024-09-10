@@ -12,26 +12,24 @@ public class Program {
 
     }
 
-    public static void method1(){
+    public static void method1() {
         System.out.println("Method 1 START");
         method2();
         System.out.println("method 1 END");
     }
 
-    public static void method2(){
+    public static void method2() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Method 2 START");
-        try{
-        String[] nomes = sc.nextLine().split(" ");
-        int pos = sc.nextInt();
-        System.out.println(nomes[pos]);
-        }
-        catch(ArrayIndexOutOfBoundsException e){
+        try {
+            String[] nomes = sc.nextLine().split(" ");
+            int pos = sc.nextInt();
+            System.out.println(nomes[pos]);
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Index inxistente");
             e.printStackTrace();
-        }
-        catch(InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.println("Erro de input");
         }
         System.out.println("method 2 END");

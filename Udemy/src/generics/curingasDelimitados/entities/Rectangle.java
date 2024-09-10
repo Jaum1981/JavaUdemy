@@ -1,13 +1,13 @@
 package generics.curingasDelimitados.entities;
 
-public class Rectangle implements Shape{
+public class Rectangle implements Shape {
 
     private double widht;
     private double height;
 
-    public Rectangle(){
+    public Rectangle() {
     }
-    
+
     public Rectangle(double widht, double height) {
         this.widht = widht;
         this.height = height;
@@ -31,9 +31,8 @@ public class Rectangle implements Shape{
 
     @Override
     public double area() {
-        return widht*height;
+        return widht * height;
     }
 
-    
-    
+
 }

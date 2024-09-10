@@ -17,20 +17,20 @@ public class Program {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-		List<Products> list = new ArrayList<>();
+        List<Products> list = new ArrayList<>();
 
-		String sourceFileStr = "/Users/jaum/Desktop/JavaUdemy/Udemy/src/arquivos/atividadeProposta/in.csv";
+        String sourceFileStr = "/Users/jaum/Desktop/JavaUdemy/Udemy/src/arquivos/atividadeProposta/in.csv";
 
-		File sourceFile = new File(sourceFileStr);
-		String sourceFolderStr = sourceFile.getParent();
-		
+        File sourceFile = new File(sourceFileStr);
+        String sourceFolderStr = sourceFile.getParent();
+
         @SuppressWarnings("unused")
         boolean success = new File(sourceFolderStr + "/out").mkdir();
         String targetFileStr = sourceFolderStr + "/out/summary.csv";
 
-        try (BufferedReader br = new BufferedReader(new FileReader(sourceFileStr))){
+        try (BufferedReader br = new BufferedReader(new FileReader(sourceFileStr))) {
 
             String productsItens = br.readLine();
             while (productsItens != null) {
@@ -45,14 +45,14 @@ public class Program {
                 productsItens = br.readLine();
             }
 
-            try (BufferedWriter bw = new BufferedWriter(new FileWriter(targetFileStr))){
+            try (BufferedWriter bw = new BufferedWriter(new FileWriter(targetFileStr))) {
 
                 for (Products item : list) {
                     bw.write(item.getName() + "," + String.format("%.2f", item.getTotalPrice()));
                     bw.newLine();
                 }
                 System.out.println(targetFileStr + " Escrita concluida");
-                
+
             } catch (IOException e) {
                 System.out.println("Error writing: " + e.getMessage());
             }
@@ -63,6 +63,6 @@ public class Program {
 
         sc.close();
 
-    } 
+    }
 
 }

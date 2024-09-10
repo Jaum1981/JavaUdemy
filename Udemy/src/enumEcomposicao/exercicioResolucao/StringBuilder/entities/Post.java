@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Post {
-    
+
 
     private LocalDateTime moment;
     private String title;
@@ -15,7 +15,7 @@ public class Post {
 
     private List<Comment> comments = new ArrayList<>();
 
-    public Post(){
+    public Post() {
     }
 
     public Post(LocalDateTime moment, String title, String content, int likes) {
@@ -61,11 +61,11 @@ public class Post {
         return comments;
     }
 
-    public void addComment(Comment comments){
+    public void addComment(Comment comments) {
         this.comments.add(comments);
     }
 
-    public void removeComment(Comment comments){
+    public void removeComment(Comment comments) {
         this.comments.remove(comments);
     }
 
@@ -74,19 +74,17 @@ public class Post {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(title+"\n");
+        sb.append(title + "\n");
         sb.append(likes);
         sb.append(" Likes - ");
         sb.append(moment.format(fmt) + "\n");
         sb.append(content + "\n");
         sb.append("Comments\n");
-        for (Comment c : comments){
+        for (Comment c : comments) {
             sb.append(c.getText());
         }
         return sb.toString();
     }
 
 
-    
-    
 }

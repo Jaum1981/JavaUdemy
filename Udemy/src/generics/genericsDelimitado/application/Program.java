@@ -11,10 +11,10 @@ import generics.genericsDelimitado.service.CalculationService;
 public class Program {
     public static void main(String[] args) {
 
-        String path = "/Users/jaum/Desktop/JavaUdemy/Udemy/src/generics/genericsDelimitado/in.csv";
+        String path = "C:\\Users\\juaun\\Desktop\\JavaUdemy\\Udemy\\src\\generics\\genericsDelimitado\\in.csv";
         List<Products> list = new ArrayList<>();
-        
-        try (BufferedReader br = new BufferedReader(new FileReader(path))){
+
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
             String line = br.readLine();
             while (line != null) {
@@ -26,7 +26,7 @@ public class Program {
             Products x = CalculationService.max(list);
             System.out.println("Max: " + x);
 
-            
+
         } catch (Exception e) {
 
         }

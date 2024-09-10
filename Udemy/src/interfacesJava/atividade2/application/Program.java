@@ -12,9 +12,9 @@ import interfacesJava.atividade2.services.PaypalService;
 public class Program {
     public static void main(String[] args) {
 
-        Scanner sc =  new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        
+
         System.out.println("Entre com os dados do contrato:");
         System.out.print("Número: ");
         int numero = sc.nextInt();

@@ -6,13 +6,13 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        
+
         List<Funcionario> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("How many employees will be registered? ");
         int qtd = sc.nextInt();
-        
-        for (int i=0; i<qtd; i++){
+
+        for (int i = 0; i < qtd; i++) {
             sc.nextLine();
             System.out.println("Enter the informationa about the employee: ");
             int id = sc.nextInt();
@@ -28,9 +28,9 @@ public class App {
         System.out.println("Enter the employee id that will have salary increase: ");
         int id = sc.nextInt();
         Integer pos = position(list, id);
-        if(pos == null){
+        if (pos == null) {
             System.out.println("Id now found");
-        }else{
+        } else {
             System.out.println("Enter the percentage: ");
             double percentage = sc.nextDouble();
             list.get(pos).increaseSalary(percentage);
@@ -40,10 +40,10 @@ public class App {
         sc.close();
     }
 
-    public static Integer position(List<Funcionario> list, int id){
+    public static Integer position(List<Funcionario> list, int id) {
 
-        for(int i = 0; i<list.size(); i++){
-            if(list.get(i).getId() == id){
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getId() == id) {
                 return i;
             }
         }

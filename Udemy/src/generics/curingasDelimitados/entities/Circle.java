@@ -1,10 +1,10 @@
 package generics.curingasDelimitados.entities;
 
-public class Circle implements Shape{
+public class Circle implements Shape {
 
     private double radius;
 
-    public Circle(){
+    public Circle() {
     }
 
     public Circle(double radius) {
@@ -24,5 +24,5 @@ public class Circle implements Shape{
         return Math.PI * radius * radius;
     }
 
-    
+
 }

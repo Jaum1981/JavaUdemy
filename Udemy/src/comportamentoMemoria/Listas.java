@@ -18,7 +18,7 @@ public class Listas {
         // list.remove(1);
         // list.remove("Joao");
 
-        for (String obj: list){ //for each
+        for (String obj : list) { //for each
             System.out.println(obj);
         }
 
@@ -26,15 +26,15 @@ public class Listas {
 
         List<String> result = list.stream().filter(x -> x.charAt(0) == 'M').collect(Collectors.toList());
 
-        for (String obj: result){ //for each
+        for (String obj : result) { //for each
             System.out.println(obj);
         }
 
         System.out.println("----------------");
-        
+
         list.removeIf(x -> x.charAt(0) == 'M'); //funcao lambda(retorna boolean) é um predicado
 
-        for (String obj: list){ //for each
+        for (String obj : list) { //for each
             System.out.println(obj);
         }
 

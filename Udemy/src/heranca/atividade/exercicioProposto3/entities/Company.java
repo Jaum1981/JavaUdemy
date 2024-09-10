@@ -1,10 +1,10 @@
 package heranca.atividade.exercicioProposto3.entities;
 
-public class Company extends TaxPayer{
+public class Company extends TaxPayer {
 
     private int numberOfEmployees;
 
-    public Company(){
+    public Company() {
     }
 
     public Company(String name, double anualIncome, int numberOfEmployees) {
@@ -14,10 +14,10 @@ public class Company extends TaxPayer{
 
     @Override
     public double tax() {
-        if(numberOfEmployees<11){
-            return anualIncome*0.16;
-        }else{
-            return anualIncome*0.14;
+        if (numberOfEmployees < 11) {
+            return anualIncome * 0.16;
+        } else {
+            return anualIncome * 0.14;
         }
     }
 
@@ -28,5 +28,5 @@ public class Company extends TaxPayer{
     public void setNumberOfEmplloyees(int numberOfEmployees) {
         this.numberOfEmployees = numberOfEmployees;
     }
-    
+
 }

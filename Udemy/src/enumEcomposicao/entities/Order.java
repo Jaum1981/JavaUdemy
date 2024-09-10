@@ -5,12 +5,12 @@ import java.util.Date;
 import enumEcomposicao.entitiesEnums.OrderStatus;
 
 public class Order {
-    
+
     private Integer id;
     private Date moment;
     private OrderStatus status;
 
-    public Order(){
+    public Order() {
 
     }
 
@@ -49,6 +49,5 @@ public class Order {
         return "Order [id=" + id + ", moment=" + moment + ", status=" + status + "]";
     }
 
-    
 
 }

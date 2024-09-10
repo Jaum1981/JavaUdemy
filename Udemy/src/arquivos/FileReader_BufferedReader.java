@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class FileReader_BufferedReader {
     public static void main(String[] args) {
-        
+
         String path = "/Users/jaum/Desktop/JavaUdemy/Udemy/src/arquivos/in.txt";
         FileReader fr = null;
         BufferedReader br = null;
@@ -17,27 +17,24 @@ public class FileReader_BufferedReader {
 
             String line = br.readLine(); //retorna nullo caso esteja no final
 
-            while (line!=null) {
+            while (line != null) {
                 System.out.println(line);
                 line = br.readLine(); //le novamente a prox linha
             }
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
-        }
-        finally {
+        } finally {
             try { //pode gerar excesao na hora de fechar
                 if (br != null) {
                     br.close();
                 }
-                if (fr != null){
+                if (fr != null) {
                     fr.close();
                 }
-            }
-            catch (IOException e) {
+            } catch (IOException e) {
                 e.printStackTrace();
             }
-            
+
         }
 
     }

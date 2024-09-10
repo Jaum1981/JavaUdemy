@@ -15,5 +15,5 @@ public class Veiculo {
     public void setModel(String model) {
         this.model = model;
     }
-    
+
 }

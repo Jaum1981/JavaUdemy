@@ -1,6 +1,6 @@
 package heranca;
 
-public final class SavingsAccount extends Account{ //não pode ser estendida
+public final class SavingsAccount extends Account { //não pode ser estendida
 
     private double interestRate;
 
@@ -13,8 +13,8 @@ public final class SavingsAccount extends Account{ //não pode ser estendida
         this.interestRate = interestRate;
     }
 
-    public void updateBalance(){
-        balance += balance*interestRate;
+    public void updateBalance() {
+        balance += balance * interestRate;
     }
 
     public double getInterestRate() {
@@ -26,8 +26,8 @@ public final class SavingsAccount extends Account{ //não pode ser estendida
     }
 
     @Override
-    public final void withdraw(double amount){ //não pode ser sobresposta
-        balance-=amount;
+    public final void withdraw(double amount) { //não pode ser sobresposta
+        balance -= amount;
     }
 
 }

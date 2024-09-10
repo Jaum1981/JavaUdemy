@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrayParte1 {
     public static void main(String[] args) {
-        
+
         Scanner sc = new Scanner(System.in);
 
 
@@ -14,12 +14,12 @@ public class ArrayParte1 {
         double sum = 0.0;
 
         System.out.println("Digite a altura de cada um: ");
-        for(int i = 0; i<qtd; i++){
+        for (int i = 0; i < qtd; i++) {
             vect[i] = sc.nextDouble();
             sum += vect[i];
         }
 
-        double averageHeight = sum/qtd;
+        double averageHeight = sum / qtd;
 
         System.out.println("Average height is: " + averageHeight);
         sc.close();

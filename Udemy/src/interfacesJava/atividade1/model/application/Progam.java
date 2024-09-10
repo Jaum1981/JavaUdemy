@@ -33,10 +33,10 @@ public class Progam {
 
         RentalServices rentalServices = new RentalServices(dayPrice, hourPrice, new BrazilTaxService());
         rentalServices.processInVoice(car);
-        
+
         System.out.println("FATURA");
         System.out.println("Basic payment " + car.getInVoice().getBasicPayment());
-        System.out.println("Imposto: "+ car.getInVoice().getTax());
+        System.out.println("Imposto: " + car.getInVoice().getTax());
 
         sc.close();
     }

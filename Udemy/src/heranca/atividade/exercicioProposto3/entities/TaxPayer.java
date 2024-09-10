@@ -4,9 +4,9 @@ public abstract class TaxPayer {
     private String name;
     protected double anualIncome;
 
-    public TaxPayer(){
+    public TaxPayer() {
     }
- 
+
     public TaxPayer(String name, double anualIncome) {
         this.name = name;
         this.anualIncome = anualIncome;

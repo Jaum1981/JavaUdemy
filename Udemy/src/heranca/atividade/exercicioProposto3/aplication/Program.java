@@ -17,8 +17,8 @@ public class Program {
 
         System.out.print("Enter the number o tax payers: ");
         int qtdTaxPayers = sc.nextInt();
-        for(int i = 0; i<qtdTaxPayers; i++){
-            System.out.println("TAX PAYER #" + (i+1) + " data: ");
+        for (int i = 0; i < qtdTaxPayers; i++) {
+            System.out.println("TAX PAYER #" + (i + 1) + " data: ");
             System.out.print("Individual or comapny (i/c)? ");
             char opc = sc.next().charAt(0);
             sc.nextLine();
@@ -26,12 +26,12 @@ public class Program {
             String name = sc.nextLine();
             System.out.print("Anual income: ");
             double anualIncome = sc.nextDouble();
-            if(opc == 'i'){
+            if (opc == 'i') {
                 System.out.print("Health expendatures: ");
                 double healtExpenditures = sc.nextDouble();
 
                 list.add(new Individual(name, anualIncome, healtExpenditures));
-            }else if(opc == 'c'){
+            } else if (opc == 'c') {
                 System.out.print("Number of employees: ");
                 int numberOfEmployees = sc.nextInt();
 
@@ -44,8 +44,8 @@ public class Program {
         System.out.println("TAXES PAID:");
         for (TaxPayer taxPayer : list) {
             double aux = taxPayer.tax();
-			System.out.println(taxPayer.getName() + ": $ " + String.format("%.2f", aux));
-			sum += aux;
+            System.out.println(taxPayer.getName() + ": $ " + String.format("%.2f", aux));
+            sum += aux;
         }
 
         System.out.println();

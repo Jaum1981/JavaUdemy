@@ -1,11 +1,13 @@
 package introPOO.application;
+
 import introPOO.entitie.Triangle;
+
 import java.util.Locale;
 import java.util.Scanner;
 
 public class ProgramTriangle {
     public static void main(String[] args) {
-        Triangle x,y;
+        Triangle x, y;
 
         Locale.setDefault(Locale.US);
 

@@ -14,30 +14,30 @@ public class Program {
 
         String filePath = "/Users/jaum/Desktop/JavaUdemy/Udemy/src/arquivos/atividadeProposta/in.csv";
         String filePathWrite = "/Users/jaum/Desktop/JavaUdemy/Udemy/src/arquivos/atividadeProposta/out/summary.csv";
-        
+
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePathWrite))) {
                 String[] line = null;
-                while(br.readLine()!=null) {
+                while (br.readLine() != null) {
                     line = br.readLine().split(",");
                     bw.write(line[0]);
                     bw.write(",");
 
                     double price = Double.parseDouble(line[1]);
                     double amount = Integer.parseInt(line[2]);
-                    double total = price*amount;
+                    double total = price * amount;
                     String totalString = Double.toHexString(total);
 
                     bw.write(totalString);
                     bw.newLine();
                 }
-            }catch (IOException e) {
+            } catch (IOException e) {
                 System.out.println("Error writter: " + e.getMessage());
             }
-        }catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
 
-        }finally{
+        } finally {
 
         }
 

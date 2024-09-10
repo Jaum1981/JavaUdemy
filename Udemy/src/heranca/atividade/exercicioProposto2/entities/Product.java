@@ -1,11 +1,11 @@
 package heranca.atividade.exercicioProposto2.entities;
 
 public class Product {
-    
+
     private String name;
     private double price;
 
-    public Product(){
+    public Product() {
     }
 
     public Product(String name, double price) {
@@ -13,7 +13,7 @@ public class Product {
         this.price = price;
     }
 
-    public String priceTag(){
+    public String priceTag() {
         return getName() + " $ " + getPrice();
     }
 
@@ -33,6 +33,5 @@ public class Product {
         this.price = price;
     }
 
-    
 
 }

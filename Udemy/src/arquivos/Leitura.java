@@ -9,17 +9,15 @@ public class Leitura {
 
         File file = new File("/Users/jaum/Desktop/JavaUdemy/Udemy/src/arquivos/in.txt");
         Scanner sc = null;
-        try{
+        try {
             sc = new Scanner(file);
-            while (sc.hasNextLine()){
+            while (sc.hasNextLine()) {
                 System.out.println(sc.nextLine());
             }
-        }
-        catch(IOException e) {
+        } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
-            
-        }
-        finally{
+
+        } finally {
             if (sc != null) {
                 sc.close();
             }
