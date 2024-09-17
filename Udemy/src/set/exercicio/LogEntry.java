@@ -3,12 +3,12 @@ package set.exercicio;
 import java.util.Date;
 import java.util.Objects;
 
-public class LogEnntry {
+public class LogEntry {
 
     private String username;
     private Date moment;
 
-    public LogEnntry(String username, Date moment) {
+    public LogEntry(String username, Date moment) {
         this.username = username;
         this.moment = moment;
     }
@@ -33,8 +33,8 @@ public class LogEnntry {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        LogEnntry logEnntry = (LogEnntry) o;
-        return Objects.equals(username, logEnntry.username);
+        LogEntry logEntry = (LogEntry) o;
+        return Objects.equals(username, logEntry.username);
     }
 
     @Override
