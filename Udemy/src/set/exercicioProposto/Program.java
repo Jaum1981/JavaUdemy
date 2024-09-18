@@ -51,5 +51,8 @@ public class Program {
 
         System.out.println("Total students: " + total.size());
 
+        sc.close();
+
     }
+    
 }
